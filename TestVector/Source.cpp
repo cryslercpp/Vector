@@ -12,6 +12,9 @@ void CallTest()
   vObject.push_back(12);
   vObject.push_back(7);
   vObject.push_back(67);
+  
+  for(size_t i = 0; i < vObject.size(); i++)
+	  printf_s("%d)  %d", i, vObject[i]);
 } 
 
 int main(int argc, char** argv)
